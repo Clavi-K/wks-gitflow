@@ -45,6 +45,7 @@ const Planets = () => {
   return (
     <div>
       <Table columns={columns} data={data.results} /* :D */ />
+      {/* Esto es un comentario para verificar el correcto flujo de información */}
     </div>
   );
 };
