@@ -41,11 +41,12 @@ const Planets = () => {
   if (!data) {
     return <div className="px-2">Loading...</div>;
   }
-
+/* Esto es un comentario weee */
   return (
     <div>
       <Table columns={columns} data={data.results} /* :D */ />
       {/* Esto es un comentario para verificar el correcto flujo de información */}
+      
     </div>
   );
 };
