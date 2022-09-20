@@ -7,6 +7,7 @@ const Header = () => (
         alt="Henry logo"
       />
       <p className="my-0 font-serif text-gray-200 text-4xl">Arturito</p>
+      {/* No me gustó mucho el workshop de hoy :c */}
     </div>
     <img
       className="object-contain h-3/5"
